@@ -57,9 +57,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SampleWebApplication\SampleWebApplication.csproj">
+    <ProjectReference Include="..\SampleWebApplication\TinyUrlConversationApp.csproj">
       <Project>{7F8BAE5D-C640-4854-90DE-A0E5AFE28C61}</Project>
-      <Name>SampleWebApplication</Name>
+      <Name>TinyUrlConversationApp</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

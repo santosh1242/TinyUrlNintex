@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApplication", "SampleWebApplication\SampleWebApplication.csproj", "{7F8BAE5D-C640-4854-90DE-A0E5AFE28C61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyUrlConversationApp", "SampleWebApplication\TinyUrlConversationApp.csproj", "{7F8BAE5D-C640-4854-90DE-A0E5AFE28C61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApplication.UnitTests", "SampleWebApplication.UnitTests\SampleWebApplication.UnitTests.csproj", "{F34965FD-E751-4F15-A5D0-759436E0C1B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyUrlConversationTest.UnitTests", "SampleWebApplication.UnitTests\TinyUrlConversationTest.UnitTests.csproj", "{F34965FD-E751-4F15-A5D0-759436E0C1B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApplication.FunctionalTests", "SampleWebApplication.FunctionalTests\SampleWebApplication.FunctionalTests.csproj", "{7D15A631-042A-4C9D-BA57-FF60AA7F48C8}"
 EndProject

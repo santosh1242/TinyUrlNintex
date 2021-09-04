@@ -55,12 +55,12 @@ jobs:
     
     - name: Run unit tests
       run: | 
-        cd Application\SampleWebApplication.UnitTests
+        cd Application\TinyUrlConversationTest.UnitTests
         dotnet test bin\Release\*.UnitTests.dll --verbosity normal
 
     - name: Archive Application
       run: |
-        Compress-Archive -Path ./Application/SampleWebApplication -DestinationPath ./buildartifacts/Application.zip
+        Compress-Archive -Path ./Application/TinyUrlConversationApp -DestinationPath ./buildartifacts/Application.zip
 
     - name: Upload Application to Build Artifact
       continue-on-error: false
@@ -127,7 +127,7 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/SampleWebApplication'
+        package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/TinyUrlConversationApp'
 
   FunctionalTests:
     name: Functional tests
