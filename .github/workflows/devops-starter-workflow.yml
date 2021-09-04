@@ -46,7 +46,7 @@ jobs:
     - name: Run MSBuild
       run: |
         cd Application
-        msbuild .\SampleWebApplication.sln -p:Configuration=Release
+        msbuild .\TinyUrlConversation.sln -p:Configuration=Release
 
     - name: Setup .NET sdk
       uses: actions/setup-dotnet@v1
@@ -155,7 +155,7 @@ jobs:
     - name: Run MSBuild
       run: |
         cd Application
-        msbuild .\SampleWebApplication.sln -p:Configuration=Release
+        msbuild .\TinyUrlConversation.sln -p:Configuration=Release
 
     - name: Setup .NET sdk
       uses: actions/setup-dotnet@v1
