@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApplication.Functi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyUrlConversation.Services.Http", "TinyUrlConversation.Services.Http\TinyUrlConversation.Services.Http.csproj", "{4922E87D-F2D5-4EA3-81AD-E3105E5D78BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyUrlConvertsation.WebApi", "TinyUrlConvertsation.webapi\TinyUrlConvertsation.WebApi.csproj", "{629C3D3B-4530-4022-A8B0-F3138927F14D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4922E87D-F2D5-4EA3-81AD-E3105E5D78BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4922E87D-F2D5-4EA3-81AD-E3105E5D78BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4922E87D-F2D5-4EA3-81AD-E3105E5D78BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{629C3D3B-4530-4022-A8B0-F3138927F14D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629C3D3B-4530-4022-A8B0-F3138927F14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629C3D3B-4530-4022-A8B0-F3138927F14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629C3D3B-4530-4022-A8B0-F3138927F14D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

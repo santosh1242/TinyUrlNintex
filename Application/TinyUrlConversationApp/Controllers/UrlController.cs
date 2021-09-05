@@ -6,7 +6,7 @@ using System.Web.Http;
 
 namespace TinyUrlConversationApp.Controllers
 {
-    [RoutePrefix("api/Url12")]
+    [RoutePrefix("api/Url12Controller")]
     public class Url12Controller : ApiController
     {
         [HttpPost]

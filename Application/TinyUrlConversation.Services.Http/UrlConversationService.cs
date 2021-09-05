@@ -13,7 +13,7 @@ namespace TinyUrlConversation.Services.Http
     public class UrlConversationService : ApiController
     {
 
-        [HttpGet]
+        [HttpPost]
         [Route("ConvertMainUrlToTinyUrl")]
         public string ConvertMainUrlToTinyUrl(string urlvalue)
         {
